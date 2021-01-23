@@ -353,21 +353,29 @@
                         our portfolio
                     </h1>
                     <p class="portfolio__text">
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet <br>
                         consectetur, adipisci velit, sed quia non numquam
                     </p>
                     <div class="portfolio__parts">     
                         <div class="portfolio__all">
-                            <p>ALL</p>
+                            <p class="portfolio__all-part">
+                                all
+                            </p>
                         </div>
                         <div class="portfolio__web">
-                            <p>WEB</p>
+                            <p class="portfolio__web-part">
+                                web
+                            </p>
                         </div>
                         <div class="portfolio__apps">
-                            <p>APPS</p>
+                            <p class="portfolio__apps-part">
+                                apps
+                            </p>
                         </div>
                         <div class="portfolio__icons">
-                            <p>ICONS</p>
+                            <p class="portfolio__icons-part">
+                                icons
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -377,7 +385,7 @@
                             <img class="case1__img" src="images/portfolio/case1.png" alt="case1">
                         </div>
                         <div class="case1__name">
-                            <h1>
+                            <h1 class="case1__h1">
                                 isometric perspective mock-up
                             </h1>                        
                         </div>                    
@@ -387,7 +395,7 @@
                             <img class="case2__img" src="images/portfolio/case2.png" alt="case2">
                         </div>
                         <div class="case2__name">
-                            <h1>
+                            <h1 class="case2__h1">
                                 time zone app ui
                             </h1>                        
                         </div>                    
@@ -397,7 +405,7 @@
                             <img class="case3__img" src="images/portfolio/case3.png" alt="case3">
                         </div>
                         <div class="case3__name">
-                            <h1>
+                            <h1 class="case3__h1">
                                 viro media players ui
                             </h1>                        
                         </div>                    
@@ -407,16 +415,16 @@
                             <img class="case4__img" src="images/portfolio/case4.png" alt="case4">
                         </div>
                         <div class="case4__name">
-                            <h1>
+                            <h1 class="case4__h1">
                                 blog / magazine flat ui kit
                             </h1>                        
                         </div>                    
                     </div>
-                </div>
-            </div>
-            <button class="portfolio__btn btn">
-                load more projects
-            </button>
+                </div>   
+                <button class="portfolio__btn btn">
+                    load more projects
+                </button>                   
+            </div>                       
         </section>
 
         <section class="section__about">
@@ -434,15 +442,15 @@
                         <div class="client1__topimage">
                             <img class="client1__img" src="images/about/client1.png" alt="client1">
                         </div>
-                        <div class="client1__name">
-                            <p>
+                        <div class="client1__text">
+                            <p class="client1__text-bottom">
                                 “Nullam dapibus blandit orci, viverra gravida dui lobortis eget. 
                                 Maecenas fringilla urna eu nisl scelerisque.”
                             </p>
-                            <h1>
+                            <h1 class="client1__name">
                                 chanel iman
                             </h1>   
-                            <p>
+                            <p class="client1__work">
                                 CEO of Pinterest
                             </p>                     
                         </div>                    
@@ -451,15 +459,15 @@
                         <div class="client2__topimage">
                             <img class="client2__img" src="images/about/client1.png" alt="client2">
                         </div>
-                        <div class="client2__name">
-                            <p>
+                        <div class="client2__text">
+                            <p class="client2__text-bottom">
                                 “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. 
                                 In condimentum facilisis porta.”
                             </p>
-                            <h1>
+                            <h1 class="client2__name">
                                 adriana lima
                             </h1>   
-                            <p>
+                            <p class="client2__work">
                                 Founder of Instagram
                             </p>                     
                         </div>                    
@@ -468,15 +476,15 @@
                         <div class="client3__topimage">
                             <img class="client3__img" src="images/about/client1.png" alt="client3">
                         </div>
-                        <div class="client3__name">
-                            <p>
+                        <div class="client3__text">
+                            <p class="client3__text-bottom">
                                 “Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. 
                                 In condimentum facilisis porta.”
                             </p>
-                            <h1>
+                            <h1 class="client3__name">
                                 anne hathaway
                             </h1>   
-                            <p>
+                            <p class="client3__work">
                                 Lead Designer at Behance
                             </p>                     
                         </div>                    
@@ -485,20 +493,20 @@
                         <div class="client4__topimage">
                             <img class="client4__img" src="images/about/client1.png" alt="client4">
                         </div>
-                        <div class="client4__name">
-                            <p>
+                        <div class="client4__text">
+                            <p class="client4__text-bottom">
                                 “Phasellus non purus vel arcu tempor commodo. Fusce semper, 
                                 purus vel luctus molestie, risus sem cursus neque.”
                             </p>
-                            <h1>
+                            <h1 class="client4__name">
                                 emma stone
                             </h1>   
-                            <p>
+                            <p class="client4__work">
                                 Co-Founder of Shazam
                             </p>                     
                         </div>                    
-                    </div>                    
-                </div>
+                    </div>                                      
+                </div>                         
             </div>            
         </section>
 
@@ -515,9 +523,9 @@
                 <div class="section__bottom touch__bottom">
                     <form action="#" method="post" enctype="multipart/form-data">
                     </form>
-                    <textarea name="touch__name" id="" placeholder="Your Name"></textarea>
-                    <textarea name="touch__email" id="" placeholder="Your Email"></textarea>
-                    <textarea name="touch__message" id="" placeholder="Your Message"></textarea>
+                    <textarea class="touch__name" name="touch__name" id="touch__name" placeholder="Your Name"></textarea>
+                    <textarea class="touch__email" name="touch__email" id="touch__email" placeholder="Your Email"></textarea>
+                    <textarea class="touch__message" name="touch__message" id="touch__message" placeholder="Your Message"></textarea>
                     <button class="touch__btn btn" class="submit"> 
                         send message
                     </button>
